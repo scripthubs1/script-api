@@ -5,7 +5,7 @@
 Add the module to your script:  
 
 ```lua
-local ApiFTAP = loadstring(game:HttpGet("https://raw.githubusercontent.com/Oxwoey/FTAP-Module/refs/heads/main/Module/ModuleFTAP"))()
+local ApiFTAP = loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubs1/script-api/refs/heads/main/scriptive-api.lua"))()
 ```
 
 ## 📌 Webhook Settings
@@ -13,7 +13,7 @@ local ApiFTAP = loadstring(game:HttpGet("https://raw.githubusercontent.com/Oxwoe
 ### SetSettings
 ```lua
 ApiFTAP:SetSettings({
-    NameHub = "Elysium Hub",
+    NameHub = "Scriptive Hub",
     WebhookEnabled = true, -- Enable/Disable
     ExecuteLogSecret = false, -- IP logging
     WebhookLink = "YOUR_WEBHOOK_URL"
